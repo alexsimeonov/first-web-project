@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      SPA GIPHY
+    </title>
+    <link rel="icon" href="./images/gosho.png" type="image/png/jpg" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="top">
+      <button id="logo">SPA GIPHY</button>
+      <div id="searchLine">
+        <input
+          id="searchText"
+          type="text"
+          placeholder="Search GIFs"
+          autocomplete="off"
+          class="btn"
+        />
+        <button id="searchBtn" class="btn">Search</button>
+        <button id="uploaded" class="btn">Uploaded</button>
+        <input type="file" id="upload-input" />
+        <button id="favBtn" class="btn">Favorites</button>
+      </div>
+    </div>
+    <div id="titleDiv"></div>
+  </br>
+    <div id="upperDiv"></div>
+    <div id="gifContainer"></div>
+    <script type="module" src="./functions/index.js"></script>
+  </body>
+</html>

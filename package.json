@@ -1,0 +1,26 @@
+{
+  "name": "giphy-web-team-project",
+  "version": "1.0.0",
+  "description": "const projectName = 'webTeamProjectRepository';",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "run eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/alex.simeonov/giphy-web-team-project.git"
+  },
+  "author": "Alexander Simeonov",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint": "^6.1.7",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/alex.simeonov/giphy-web-team-project/issues"
+  },
+  "homepage": "https://gitlab.com/alex.simeonov/giphy-web-team-project#readme"
+}
